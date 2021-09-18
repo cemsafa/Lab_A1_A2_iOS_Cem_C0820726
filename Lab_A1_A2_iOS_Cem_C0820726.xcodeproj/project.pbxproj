@@ -11,7 +11,7 @@
 		B1ECEE9C26F55FBF00C70DB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEE9B26F55FBF00C70DB6 /* SceneDelegate.swift */; };
 		B1ECEE9E26F55FBF00C70DB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEE9D26F55FBF00C70DB6 /* ViewController.swift */; };
 		B1ECEEA126F55FBF00C70DB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1ECEE9F26F55FBF00C70DB6 /* Main.storyboard */; };
-		B1ECEEA426F55FBF00C70DB6 /* Lab_A1_A2_iOS_Cem_C0820726.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEEA226F55FBF00C70DB6 /* Lab_A1_A2_iOS_Cem_C0820726.xcdatamodeld */; };
+		B1ECEEA426F55FBF00C70DB6 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEEA226F55FBF00C70DB6 /* CoreDataModel.xcdatamodeld */; };
 		B1ECEEA626F55FC000C70DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1ECEEA526F55FC000C70DB6 /* Assets.xcassets */; };
 		B1ECEEA926F55FC000C70DB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1ECEEA726F55FC000C70DB6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -58,16 +58,48 @@
 		B1ECEE9826F55FBF00C70DB6 /* Lab_A1_A2_iOS_Cem_C0820726 */ = {
 			isa = PBXGroup;
 			children = (
-				B1ECEE9926F55FBF00C70DB6 /* AppDelegate.swift */,
-				B1ECEE9B26F55FBF00C70DB6 /* SceneDelegate.swift */,
-				B1ECEE9D26F55FBF00C70DB6 /* ViewController.swift */,
-				B1ECEE9F26F55FBF00C70DB6 /* Main.storyboard */,
-				B1ECEEA526F55FC000C70DB6 /* Assets.xcassets */,
-				B1ECEEA726F55FC000C70DB6 /* LaunchScreen.storyboard */,
+				B1ECEEB026F560D700C70DB6 /* Models */,
+				B1ECEEB126F560E200C70DB6 /* Views */,
+				B1ECEEB226F560FC00C70DB6 /* Controllers */,
+				B1ECEEB326F5612400C70DB6 /* Supporting Files */,
 				B1ECEEAA26F55FC000C70DB6 /* Info.plist */,
-				B1ECEEA226F55FBF00C70DB6 /* Lab_A1_A2_iOS_Cem_C0820726.xcdatamodeld */,
 			);
 			path = Lab_A1_A2_iOS_Cem_C0820726;
+			sourceTree = "<group>";
+		};
+		B1ECEEB026F560D700C70DB6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1ECEEA226F55FBF00C70DB6 /* CoreDataModel.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1ECEEB126F560E200C70DB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1ECEE9F26F55FBF00C70DB6 /* Main.storyboard */,
+				B1ECEEA726F55FC000C70DB6 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1ECEEB226F560FC00C70DB6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B1ECEE9D26F55FBF00C70DB6 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B1ECEEB326F5612400C70DB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1ECEE9926F55FBF00C70DB6 /* AppDelegate.swift */,
+				B1ECEE9B26F55FBF00C70DB6 /* SceneDelegate.swift */,
+				B1ECEEA526F55FC000C70DB6 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +174,7 @@
 			files = (
 				B1ECEE9E26F55FBF00C70DB6 /* ViewController.swift in Sources */,
 				B1ECEE9A26F55FBF00C70DB6 /* AppDelegate.swift in Sources */,
-				B1ECEEA426F55FBF00C70DB6 /* Lab_A1_A2_iOS_Cem_C0820726.xcdatamodeld in Sources */,
+				B1ECEEA426F55FBF00C70DB6 /* CoreDataModel.xcdatamodeld in Sources */,
 				B1ECEE9C26F55FBF00C70DB6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,13 +379,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B1ECEEA226F55FBF00C70DB6 /* Lab_A1_A2_iOS_Cem_C0820726.xcdatamodeld */ = {
+		B1ECEEA226F55FBF00C70DB6 /* CoreDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				B1ECEEA326F55FBF00C70DB6 /* Lab_A1_A2_iOS_Cem_C0820726.xcdatamodel */,
 			);
 			currentVersion = B1ECEEA326F55FBF00C70DB6 /* Lab_A1_A2_iOS_Cem_C0820726.xcdatamodel */;
-			path = Lab_A1_A2_iOS_Cem_C0820726.xcdatamodeld;
+			path = CoreDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
