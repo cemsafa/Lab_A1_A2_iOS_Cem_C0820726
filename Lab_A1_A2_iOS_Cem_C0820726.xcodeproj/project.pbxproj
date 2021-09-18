@@ -9,23 +9,27 @@
 /* Begin PBXBuildFile section */
 		B1ECEE9A26F55FBF00C70DB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEE9926F55FBF00C70DB6 /* AppDelegate.swift */; };
 		B1ECEE9C26F55FBF00C70DB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEE9B26F55FBF00C70DB6 /* SceneDelegate.swift */; };
-		B1ECEE9E26F55FBF00C70DB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEE9D26F55FBF00C70DB6 /* ViewController.swift */; };
 		B1ECEEA126F55FBF00C70DB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1ECEE9F26F55FBF00C70DB6 /* Main.storyboard */; };
-		B1ECEEA426F55FBF00C70DB6 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEEA226F55FBF00C70DB6 /* CoreDataModel.xcdatamodeld */; };
 		B1ECEEA626F55FC000C70DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1ECEEA526F55FC000C70DB6 /* Assets.xcassets */; };
 		B1ECEEA926F55FC000C70DB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1ECEEA726F55FC000C70DB6 /* LaunchScreen.storyboard */; };
+		B1ECEEB626F5653200C70DB6 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEEB426F5653200C70DB6 /* CoreDataModel.xcdatamodeld */; };
+		B1ECEEBA26F65CA200C70DB6 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEEB926F65CA200C70DB6 /* ProductDetailVC.swift */; };
+		B1ECEEBC26F65CC200C70DB6 /* ProductsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEEBB26F65CC200C70DB6 /* ProductsTableVC.swift */; };
+		B1ECEEBE26F6644A00C70DB6 /* ProductDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEEBD26F6644A00C70DB6 /* ProductDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B1ECEE9626F55FBF00C70DB6 /* Lab_A1_A2_iOS_Cem_C0820726.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab_A1_A2_iOS_Cem_C0820726.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1ECEE9926F55FBF00C70DB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1ECEE9B26F55FBF00C70DB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B1ECEE9D26F55FBF00C70DB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1ECEEA026F55FBF00C70DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B1ECEEA326F55FBF00C70DB6 /* Lab_A1_A2_iOS_Cem_C0820726.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab_A1_A2_iOS_Cem_C0820726.xcdatamodel; sourceTree = "<group>"; };
 		B1ECEEA526F55FC000C70DB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1ECEEA826F55FC000C70DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1ECEEAA26F55FC000C70DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1ECEEB526F5653200C70DB6 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		B1ECEEB926F65CA200C70DB6 /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
+		B1ECEEBB26F65CC200C70DB6 /* ProductsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableVC.swift; sourceTree = "<group>"; };
+		B1ECEEBD26F6644A00C70DB6 /* ProductDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +74,8 @@
 		B1ECEEB026F560D700C70DB6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B1ECEEA226F55FBF00C70DB6 /* CoreDataModel.xcdatamodeld */,
+				B1ECEEB426F5653200C70DB6 /* CoreDataModel.xcdatamodeld */,
+				B1ECEEBD26F6644A00C70DB6 /* ProductDemo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -87,7 +92,8 @@
 		B1ECEEB226F560FC00C70DB6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B1ECEE9D26F55FBF00C70DB6 /* ViewController.swift */,
+				B1ECEEB926F65CA200C70DB6 /* ProductDetailVC.swift */,
+				B1ECEEBB26F65CC200C70DB6 /* ProductsTableVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -172,10 +178,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1ECEE9E26F55FBF00C70DB6 /* ViewController.swift in Sources */,
 				B1ECEE9A26F55FBF00C70DB6 /* AppDelegate.swift in Sources */,
-				B1ECEEA426F55FBF00C70DB6 /* CoreDataModel.xcdatamodeld in Sources */,
+				B1ECEEBA26F65CA200C70DB6 /* ProductDetailVC.swift in Sources */,
+				B1ECEEBE26F6644A00C70DB6 /* ProductDemo.swift in Sources */,
 				B1ECEE9C26F55FBF00C70DB6 /* SceneDelegate.swift in Sources */,
+				B1ECEEB626F5653200C70DB6 /* CoreDataModel.xcdatamodeld in Sources */,
+				B1ECEEBC26F65CC200C70DB6 /* ProductsTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,12 +387,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B1ECEEA226F55FBF00C70DB6 /* CoreDataModel.xcdatamodeld */ = {
+		B1ECEEB426F5653200C70DB6 /* CoreDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B1ECEEA326F55FBF00C70DB6 /* Lab_A1_A2_iOS_Cem_C0820726.xcdatamodel */,
+				B1ECEEB526F5653200C70DB6 /* CoreDataModel.xcdatamodel */,
 			);
-			currentVersion = B1ECEEA326F55FBF00C70DB6 /* Lab_A1_A2_iOS_Cem_C0820726.xcdatamodel */;
+			currentVersion = B1ECEEB526F5653200C70DB6 /* CoreDataModel.xcdatamodel */;
 			path = CoreDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
