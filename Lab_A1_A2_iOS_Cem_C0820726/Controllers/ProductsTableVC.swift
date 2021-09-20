@@ -11,6 +11,7 @@ import CoreData
 class ProductsTableVC: UITableViewController {
     
     var products = [Product]()
+    var providers = [Provider]()
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
@@ -26,30 +27,7 @@ class ProductsTableVC: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         loadProducts()
         showSearchBar()
-        if products == [] {
-            let exampleProducts = [
-                ProductDemo(productId: 1, productName: "pen", productDesription: "blue ink", productPrice: 0.80, productProvider: "BIC"),
-                ProductDemo(productId: 3, productName: "laptop", productDesription: "work laptop", productPrice: 999.99, productProvider: "HP"),
-                ProductDemo(productId: 5, productName: "cell phone", productDesription: "most advance phone ever", productPrice: 1099.50, productProvider: "Apple"),
-                ProductDemo(productId: 2, productName: "freezer", productDesription: "freezing cold food storage", productPrice: 510.49, productProvider: "Electrolux"),
-                ProductDemo(productId: 8, productName: "tv", productDesription: "led ambilight", productPrice: 899, productProvider: "LG"),
-                ProductDemo(productId: 10, productName: "game console", productDesription: "playstation 5", productPrice: 499, productProvider: "Sony"),
-                ProductDemo(productId: 42, productName: "table", productDesription: "100x200 dining table", productPrice: 0.80, productProvider: "Ikea"),
-                ProductDemo(productId: 11, productName: "chair", productDesription: "office chair", productPrice: 0.80, productProvider: "Ikea"),
-                ProductDemo(productId: 9, productName: "couch", productDesription: "comfortable", productPrice: 0.80, productProvider: "Structube"),
-                ProductDemo(productId: 6, productName: "desk", productDesription: "office desk", productPrice: 0.80, productProvider: "Ikea")
-            ]
-            for product in exampleProducts {
-                let newProduct = Product(context: context)
-                newProduct.productId = product.productId
-                newProduct.productName = product.productName
-                newProduct.productDescription = product.productDesription
-                newProduct.productPrice = product.productPrice
-                newProduct.productProvider = product.productProvider
-                products.append(newProduct)
-                saveProduct()
-            }
-        }
+        
     }
 
     // MARK: - Table view data source
@@ -149,7 +127,15 @@ class ProductsTableVC: UITableViewController {
         navigationItem.searchController = searchController
         definesPresentationContext = true
     }
-
+    
+    // MARK: - IBAction
+    
+    @IBAction func switchBtnPressed(_ sender: UIBarButtonItem) {
+    }
+    
+    @IBAction func addBtnPressed(_ sender: UIBarButtonItem) {
+    }
+    
 }
 
 // MARK: - UISearchBarDelegate

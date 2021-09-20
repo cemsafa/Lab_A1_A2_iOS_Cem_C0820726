@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1728F7126F6CE450016E351 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1728F7026F6CE450016E351 /* MainVC.swift */; };
+		B1728F7326F747F40016E351 /* ProviderTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1728F7226F747F40016E351 /* ProviderTableVC.swift */; };
 		B1ECEE9A26F55FBF00C70DB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEE9926F55FBF00C70DB6 /* AppDelegate.swift */; };
 		B1ECEE9C26F55FBF00C70DB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEE9B26F55FBF00C70DB6 /* SceneDelegate.swift */; };
 		B1ECEEA126F55FBF00C70DB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1ECEE9F26F55FBF00C70DB6 /* Main.storyboard */; };
@@ -15,10 +17,11 @@
 		B1ECEEB626F5653200C70DB6 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEEB426F5653200C70DB6 /* CoreDataModel.xcdatamodeld */; };
 		B1ECEEBA26F65CA200C70DB6 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEEB926F65CA200C70DB6 /* ProductDetailVC.swift */; };
 		B1ECEEBC26F65CC200C70DB6 /* ProductsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEEBB26F65CC200C70DB6 /* ProductsTableVC.swift */; };
-		B1ECEEBE26F6644A00C70DB6 /* ProductDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ECEEBD26F6644A00C70DB6 /* ProductDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1728F7026F6CE450016E351 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		B1728F7226F747F40016E351 /* ProviderTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderTableVC.swift; sourceTree = "<group>"; };
 		B1ECEE9626F55FBF00C70DB6 /* Lab_A1_A2_iOS_Cem_C0820726.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab_A1_A2_iOS_Cem_C0820726.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1ECEE9926F55FBF00C70DB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1ECEE9B26F55FBF00C70DB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +32,6 @@
 		B1ECEEB526F5653200C70DB6 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
 		B1ECEEB926F65CA200C70DB6 /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
 		B1ECEEBB26F65CC200C70DB6 /* ProductsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableVC.swift; sourceTree = "<group>"; };
-		B1ECEEBD26F6644A00C70DB6 /* ProductDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				B1ECEEB426F5653200C70DB6 /* CoreDataModel.xcdatamodeld */,
-				B1ECEEBD26F6644A00C70DB6 /* ProductDemo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -94,6 +95,8 @@
 			children = (
 				B1ECEEB926F65CA200C70DB6 /* ProductDetailVC.swift */,
 				B1ECEEBB26F65CC200C70DB6 /* ProductsTableVC.swift */,
+				B1728F7026F6CE450016E351 /* MainVC.swift */,
+				B1728F7226F747F40016E351 /* ProviderTableVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -179,8 +182,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1ECEE9A26F55FBF00C70DB6 /* AppDelegate.swift in Sources */,
+				B1728F7126F6CE450016E351 /* MainVC.swift in Sources */,
 				B1ECEEBA26F65CA200C70DB6 /* ProductDetailVC.swift in Sources */,
-				B1ECEEBE26F6644A00C70DB6 /* ProductDemo.swift in Sources */,
+				B1728F7326F747F40016E351 /* ProviderTableVC.swift in Sources */,
 				B1ECEE9C26F55FBF00C70DB6 /* SceneDelegate.swift in Sources */,
 				B1ECEEB626F5653200C70DB6 /* CoreDataModel.xcdatamodeld in Sources */,
 				B1ECEEBC26F65CC200C70DB6 /* ProductsTableVC.swift in Sources */,
